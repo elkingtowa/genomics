@@ -23,7 +23,6 @@ pData(e)<-tmp2
 
 save(e,file="gsea.rda")
 
-##adding MAS 5.0
 library(simpleaffy)
 m <- justMAS(ab)
 pData(m)<-tmp2
